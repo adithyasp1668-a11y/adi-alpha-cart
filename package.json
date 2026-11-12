@@ -1,0 +1,19 @@
+{
+  "name": "alpha-cart-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alpha Cart - Production Multi-Category Delivery Platform Monorepo",
+  "scripts": {
+    "dev:admin": "pnpm --filter @alpha-cart/admin dev",
+    "dev:customer": "pnpm --filter @alpha-cart/customer dev",
+    "dev:seller": "pnpm --filter @alpha-cart/seller dev",
+    "dev:delivery": "pnpm --filter @alpha-cart/delivery dev",
+    "build:admin": "pnpm --filter @alpha-cart/admin build",
+    "build:all": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Alpha Cart Delivery Partner",
+    "slug": "alpha-cart-delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FF6B00"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "alphacartdelivery"
+  }
+}
